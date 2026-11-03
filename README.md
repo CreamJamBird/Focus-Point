@@ -20,6 +20,12 @@
 
 ## Запуск
 
-Всё приложение находится в одном файле `index.html`, сборка не нужна. Откройте его в браузере или включите GitHub Pages: Settings → Pages → Deploy from a branch → `main` / `root`.
+Сборка не нужна, каждая версия приложения находится в одном файле:
+
+- `index.html` — стартовая страница с выбором языка;
+- `index.ru.html` — интерфейс на русском;
+- `index.en.html` — интерфейс на английском.
+
+Откройте `index.html` в браузере или включите GitHub Pages. Для GitHub Pages: Settings → Pages → Deploy from a branch → `main` / `root`.
 
 Для чтения PDF и EPUB используются [pdf.js](https://mozilla.github.io/pdf.js/) и [JSZip](https://stuk.github.io/jszip/), они подгружаются с cdnjs при первом открытии такого файла.
